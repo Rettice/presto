@@ -74,6 +74,12 @@
         </artifact>
     </artifactSet>
 
+    <artifactSet to="plugin/elasticsearch">
+        <artifact id="${project.groupId}:presto-elasticsearch:zip:${project.version}">
+            <unpack />
+        </artifact>
+    </artifactSet>
+
     <artifactSet to="plugin/atop">
         <artifact id="${project.groupId}:presto-atop:zip:${project.version}">
             <unpack />
